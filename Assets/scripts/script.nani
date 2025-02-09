@@ -10,6 +10,7 @@ c2: 你好，我是aki。
 @char c2.happy1 look:Right
 c2: 欢迎来到测试~
 c2.yansu1: 现在我很严肃
+c2.happy1: 这句话是为了测试git更新. 你也可以尝试更新。
 
 @char c2.happy1 look:Left
 c2: 这是第一句话，说完这句话我要严肃[i][char c2.yansu1 pos:40 wait:true] 说完这句话我要高兴.[i][char c2.fine1 wait:true] 这是第三句话.[i]这是第四句话.
