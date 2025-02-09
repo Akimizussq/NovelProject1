@@ -12,3 +12,28 @@
 |          |      |      |
 |          |      |      |
 
+注：更新的时候
+1. 查看修改
+```
+git status
+```
+2. 添加文件
+```
+git add .
+```
+3. 提交更改
+```
+git commit -m "描述你的修改"
+```
+4. 拉取最新代码
+```
+git pull origin main --rebase
+```
+5. 推送到github
+```
+git push origin main
+```
+6. 队友拉取最新代码
+```
+git pull origin main
+```
