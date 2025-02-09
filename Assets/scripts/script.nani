@@ -1,0 +1,29 @@
+@back tempo
+c1.happy1: 你好，我是小牛！
+c1.happy2: 欢迎来到test!
+@char c1 pos:30
+@char c2 pos:70
+c2: 你好，我是aki。
+
+@hide c1
+@char c2.fine1 pos:50
+@char c2.happy1 look:Right
+c2: 欢迎来到测试~
+c2.yansu1: 现在我很严肃
+
+@char c2.happy1 look:Left
+c2: 这是第一句话，说完这句话我要严肃[i][char c2.yansu1 pos:40 wait:true] 说完这句话我要高兴.[i][char c2.fine1 wait:true] 这是第三句话.[i]这是第四句话.
+@hide c2
+@char c1.happy1 pos:50
+c1: ...
+@choice "我很高兴" goto:.happy
+@choice "我不高兴" goto:.angry
+@stop
+
+#happy
+c1.shocked1: 真的吗？
+@stop
+
+#angry
+c1.shocked2: 假的吧！
+@stop
