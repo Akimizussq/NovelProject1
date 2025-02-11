@@ -188,30 +188,92 @@ MonoBehaviour:
   - Id: Characters/6cc1ce10-b43f-4135-8473-5fbec3d81fed
     Resources:
     - name: fine1
-      pathPrefix: Characters/c2
+      pathPrefix: Characters/AI
       guid: e53048867c661eb47aca53cd5d852ebe
     - name: happy1
-      pathPrefix: Characters/c2
+      pathPrefix: Characters/AI
       guid: 3b6d008694c60204c87bbbc2cf4b5ee7
     - name: yansu1
-      pathPrefix: Characters/c2
+      pathPrefix: Characters/AI
       guid: cb521583a3ca5314abe3e285ed2565d7
+    - name: worry1
+      pathPrefix: Characters/AI
+      guid: 5a4d3d0cc42572e4cb15d73ba8e0a668
+    - name: worry2
+      pathPrefix: Characters/AI
+      guid: 392dd19e628dead4eb2b00ddeb6508f4
   - Id: Characters/a81d67c9-09de-451a-ab15-0d9fd5d45625
     Resources:
     - name: happy1
-      pathPrefix: Characters/c1
+      pathPrefix: Characters/Ming
       guid: 7fafb3a43ab6b4547a3304b397a3b933
     - name: happy2
-      pathPrefix: Characters/c1
+      pathPrefix: Characters/Ming
       guid: 12cb3ce5f214e334daf3cee1c615b3b1
     - name: shocked1
-      pathPrefix: Characters/c1
+      pathPrefix: Characters/Ming
       guid: a4ebd35bc93a1694ca5b0d9270251c56
     - name: shocked2
-      pathPrefix: Characters/c1
+      pathPrefix: Characters/Ming
       guid: fa7e293b65c92584da1a829f11127451
+    - name: boring1
+      pathPrefix: Characters/Ming
+      guid: 36cc9bf4519ccca458d81a0ac49dc321
+    - name: smile1
+      pathPrefix: Characters/Ming
+      guid: bbfb0df409fe9fe4bb2af824b11e1caa
+    - name: worry1
+      pathPrefix: Characters/Ming
+      guid: d193ab51f2134064282314dc503d6960
   - Id: Backgrounds/0c10084a-6752-4e0a-b0e3-ac9dc09dc514
     Resources:
     - name: tempo
       pathPrefix: Backgrounds/MainBackground
       guid: 14cdee249b2e74e419a9fa63e4dad4d2
+    - name: RoadForSchool
+      pathPrefix: Backgrounds/MainBackground
+      guid: 52c3b5a001ed4de45969e289e9acd56c
+    - name: ZouLang
+      pathPrefix: Backgrounds/MainBackground
+      guid: d73be13417305bb42b1a1bfa5688eb9d
+    - name: Classroom3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3a7d3ba24776d974d8ee64386e69ed8c
+    - name: SchoolGate3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 90a5baa0858dc024c83c240e70859280
+    - name: SchoolGate4
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0cc3c502acaea6344a04b6de35db49e8
+    - name: Transition1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 88ae586ddf1a42e4b941f7fc9d6aa98c
+    - name: Classroom2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9bc2e65d9f80dc745bf7295732d0b345
+    - name: Canteen
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0d55326c476647241a3ed1d29cc59f63
+    - name: Classroom1
+      pathPrefix: Backgrounds/MainBackground
+      guid: e89805c26e0d4e94581f33204aefddaf
+  - Id: Characters/fa1f4dea-ce28-47f1-9c17-3bd545a6f2d5
+    Resources:
+    - name: angry1
+      pathPrefix: Characters/Hong
+      guid: 68702d793d3f54e47824d6b48fd838e9
+    - name: happy1
+      pathPrefix: Characters/Hong
+      guid: 55b6d5499f288c0458be01f47286ef53
+    - name: happy2
+      pathPrefix: Characters/Hong
+      guid: b4ebfee0a46124d4eae683251c7935ac
+    - name: sad1
+      pathPrefix: Characters/Hong
+      guid: ca5bbafd7be49cb4f943f46c9d1bc7be
+    - name: shocked1
+      pathPrefix: Characters/Hong
+      guid: 2320f77309f4f294b8566520925f0e4d
+    - name: shocked2
+      pathPrefix: Characters/Hong
+      guid: 5e0b883456c43cb48ada420ee2d6f825

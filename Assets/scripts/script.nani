@@ -1,11 +1,141 @@
-@back tempo
-c1.happy1: 你好，我是小牛！
-c1.happy2: 欢迎来到test!
-@char c1 pos:30
-@char c2 pos:70
-c2: 你好，我是aki。
+@back Classroom3
+Ming.happy1: 欢迎来到test!
+; 故事1
+Ming.happy2: 终于熬到放学了，尝试一下这个新的学伴AI怎么个事！
 
-@hide c1
+@char Ming pos:25
+@char AI pos:75
+
+AI.fine1: 你好，小明！很高兴成为你的学伴AI，[i][char AI.happy1 wait:true]让我们一起开启新学期的学习之旅吧！
+
+Ming.boring1: （她似乎并不仅仅是一个冷冰冰的工具，它的声音里带着某种安抚的力量，像是一个成熟、温和的伙伴。）
+Ming.smile1: 让我看看你有什么石粒！（点开首页）
+
+AI.fine1: 作业解答、学习计划、心理疏导、社交互动...
+
+Ming.boring1: （从桌子上拿起生物书本，仔细看了下题目）
+Ming.boring1: 请简述光合作用的过程。
+Ming.boring1:（思考片刻...[i][char Ming.shocked1 wait:true]不豪，我都想不起来啦，嗯...既然如此，那刚好检验一下AI的效率吧）
+
+@hide Ming
+@char AI pos:50 
+
+AI.fine1: （加载数秒）
+
+AI.happy1: 光合作用是植物利用光能合成有机物的过程，主要发生在叶绿体中。其过程可分为两部分：光反应和暗反应。光反应需要光能的参与，而暗反应则是通过二氧化碳的固定，最终形成葡萄糖……
+
+@char AI pos:75
+@char Ming.boring1 pos:25
+
+Ming.boring1: （仔细看了几遍，又回忆了一下知识，意识到这AI似乎回答的相当正确）
+Ming.shocked2: 这么准确的吗？（这下不得不顺手ctrlCV进作业里了）
+Ming.happy1: 没想到这AI这么强，[i][char Ming.happy2 wait:true]这下不用担心作业啦~
+
+@hide Ming
+@hide AI
+@hidePrinter
+@wait 0.5
+
+; 场景切换测试
+@back Transition1.Pixelate time:1.5
+使用了AI一段时间后……小明发现，学伴AI不仅仅能帮他做学术上的问题，它还可以提供一些意想不到的陪伴。每天完成作业后，小明都会感到一些疲惫和焦虑，尤其是临近期中考试的时候，他开始怀疑自己的学习进度。（这部分还没写）
+@wait 1
+@hidePrinter
+@back ZouLang.Pixelate time:1.5
+
+@char Ming.boring1 pos:50
+Ming.boring1: 万能的AI啊，我最近学习很累，总是觉得没有动力，该怎么办？
+
+@char Ming pos:25
+@char AI.fine1 pos:75
+
+AI: 小明，我能理解你的感受，学习确实是一个长期的过程，偶尔感到疲惫是正常的。你可以尝试制定小目标，给自己一些小小的奖励，也许这样可以让你更有动力。[i][char AI.happy1 look:Right wait:true]休息和放松同样重要，记得不要对自己太苛刻。
+
+@char AI.fine1
+Ming.smile1: （这一段瞎写的）AI成了我的一部分，不仅仅是学习助手，还是我的情感出口。
+
+Ming.happy1: AI啊，如果我考试不及格，你会怎么办？
+
+@char Ming.boring1
+AI: （思考片刻）
+AI.happy1: 我相信你能够做到，你已经付出了很多努力，结果只是时间的问题。
+
+Ming.happy2: 谢谢你！
+
+@hide Ming
+@hide AI
+@hidePrinter
+@wait 0.5
+
+; 场景切换测试
+@back Transition1.Pixelate time:1.5
+几周后，小明渐渐感到，学伴AI在给他提供的学习推荐中，存在一些不太对劲的地方。虽然起初他没有太在意，但随着时间的推移，问题逐渐显现出来。（这部分还没写）
+@wait 1
+@hidePrinter
+@back Classroom2.Pixelate time:1.5
+
+@char Ming.worry1 pos:50
+Ming.worry1: 今天的数学作业太难了，题目要求证明一个复杂的几何性质，这我做不到啊。
+Ming.smile1: 好嘞，该你出场了，AI酱！
+
+@char Ming pos:75
+@char AI pos:25
+
+AI.happy1: 您好，很高兴帮助您。
+
+Ming.happy2: AI啊，帮我看看这个几何怎么做吧？
+
+AI.fine1: （思考片刻）
+AI: 这是您需要的相关解答！（展示相关解答）[i][char AI.happy1 wait:true]如果您需要更多帮助，请及时呼唤我！
+
+@hide AI
+@char Ming.boring1 pos:50
+
+Ming: （查看AI的答案片刻）
+Ming.worry1: 怎么又是这些基础题？明明这道题涉及到更高阶的知识啊！
+Ming: （AI的推荐明显跟不上自己的实际水平）
+
+@hide Ming
+@hidePrinter
+@wait 0.5
+
+; 场景切换测试
+@back Transition1.Pixelate time:1.5
+几周后，小明渐渐感到，学伴AI在给他提供的学习推荐中，存在一些不太对劲的地方。虽然起初他没有太在意，但随着时间的推移，问题逐渐显现出来。（这部分还没写）
+@wait 1
+@hidePrinter
+@back Canteen.Pixelate time:1.5
+
+Ming.boring1: 小红啊，你有没有觉得，学伴AI推荐的题目有点儿……单一？
+@char Ming pos:25
+@char Hong.happy1 pos:75
+
+Hong.happy1: 是啊！我也发现了，[i][char Hong.shocked1 wait:true]AI总是给我推荐那些简单的基础题，根本不符合我现在的学习进度。有时候，连我自己都知道这些题的答案，但它还是不停推荐。
+
+Ming.shocked1: 我也有同感，昨天我做了一道几何题，AI给我的解法看起来很简单，根本没有帮到我。难道...[i][char Ming.shocked2 wait:true]它真的是根据我们每个人的基础数据来推送内容的？说是按照AI的算法判断，我是个菜鸟吗？
+
+Hong.sad1: 是的，AI根据我们过往的学习记录和基础数据来推荐内容。我查过设置，发现它没有真正做到个性化。而且，它还会根据我们的历史数据来推送一些相同类型的资源，根本不会因应我们学习的深度做出调整。
+Hong: 我做历史作业的时候，AI给我推荐的资料有时候完全偏向某一方的观点，根本没有做到全面。它的推荐缺乏深度和广度。
+
+@hide Hong
+@char Ming.worry1 pos:50
+
+Ming.worry1: （原来AI的推荐机制不仅没有智能化，还可能会带来偏见...）
+Ming: （这样下去，自己的学习真的会变得越来越局限，依赖AI的推荐反而会让自己停滞不前。）
+
+@char Ming pos:25
+@char Hong.sad1 pos:75
+Ming: 小红，你说得对，我也觉得这种推荐方式真的不行。
+Ming: 我明明已经学到了更高难度的内容，可是AI却依然推荐简单的题目，它根本不在乎我需要什么，完全没有根据我的实际情况进行调整。
+
+; @choice "无视这种情况，继续使用" goto 
+; @choice "向工作人员反馈情况，更新推荐内容" goto
+; @choice "无视这种情况，不再使用" goto
+; @stop
+
+; @hide c1
+
+
 @char c2.fine1 pos:50
 @char c2.happy1 look:Right
 c2: 欢迎来到测试~
