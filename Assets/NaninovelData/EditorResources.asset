@@ -187,44 +187,53 @@ MonoBehaviour:
       guid: fa7e293b65c92584da1a829f11127451
   - Id: Characters/6cc1ce10-b43f-4135-8473-5fbec3d81fed
     Resources:
-    - name: fine1
-      pathPrefix: Characters/AI
-      guid: e53048867c661eb47aca53cd5d852ebe
     - name: happy1
       pathPrefix: Characters/AI
-      guid: 3b6d008694c60204c87bbbc2cf4b5ee7
-    - name: yansu1
+      guid: a502efb24ff2ee147adb772f1867047c
+    - name: happy2
       pathPrefix: Characters/AI
-      guid: cb521583a3ca5314abe3e285ed2565d7
-    - name: worry1
-      pathPrefix: Characters/AI
-      guid: 5a4d3d0cc42572e4cb15d73ba8e0a668
-    - name: worry2
-      pathPrefix: Characters/AI
-      guid: 392dd19e628dead4eb2b00ddeb6508f4
+      guid: 94b0d4c226eb7f94eb9e742ac240aa15
   - Id: Characters/a81d67c9-09de-451a-ab15-0d9fd5d45625
     Resources:
-    - name: happy1
+    - name: cry
       pathPrefix: Characters/Ming
-      guid: 7fafb3a43ab6b4547a3304b397a3b933
-    - name: happy2
+      guid: d5f9b5d77aced43449377fd95fc71cef
+    - name: happy
       pathPrefix: Characters/Ming
-      guid: 12cb3ce5f214e334daf3cee1c615b3b1
-    - name: shocked1
+      guid: 7cbe6f238aec7ec42b3366fd8db74c0b
+    - name: angry1
       pathPrefix: Characters/Ming
-      guid: a4ebd35bc93a1694ca5b0d9270251c56
-    - name: shocked2
+      guid: 2bf08f4e3cf968e40a4f904a637e8e09
+    - name: scared
       pathPrefix: Characters/Ming
-      guid: fa7e293b65c92584da1a829f11127451
-    - name: boring1
+      guid: c7b9ce157596aac4d8aa38e4270657c9
+    - name: sweated1
       pathPrefix: Characters/Ming
-      guid: 36cc9bf4519ccca458d81a0ac49dc321
-    - name: smile1
-      pathPrefix: Characters/Ming
-      guid: bbfb0df409fe9fe4bb2af824b11e1caa
+      guid: 036abb3d8cfe18847a88911c07a380a6
     - name: worry1
       pathPrefix: Characters/Ming
-      guid: d193ab51f2134064282314dc503d6960
+      guid: 564a5b571506d07428a593261ded490e
+    - name: fine
+      pathPrefix: Characters/Ming
+      guid: 282cf333564a3da479c1a23804122976
+    - name: sweated2
+      pathPrefix: Characters/Ming
+      guid: 08b4802208794c04998b17d32fda05cb
+    - name: sweated3
+      pathPrefix: Characters/Ming
+      guid: 5c58a1a8d75a4554bbb51c9b36d2ae5b
+    - name: angry2
+      pathPrefix: Characters/Ming
+      guid: 35eb1a680a649ce4d8dd56001826de1a
+    - name: worry2
+      pathPrefix: Characters/Ming
+      guid: 9c6a255b5db7c8d4db76ad70b3c04063
+    - name: thinking
+      pathPrefix: Characters/Ming
+      guid: 56d3dd82f235122468bcaf89aec34828
+    - name: sad
+      pathPrefix: Characters/Ming
+      guid: 0e66f0b29b7cfdd44bdc09c16888d628
   - Id: Backgrounds/0c10084a-6752-4e0a-b0e3-ac9dc09dc514
     Resources:
     - name: tempo
@@ -257,23 +266,95 @@ MonoBehaviour:
     - name: Classroom1
       pathPrefix: Backgrounds/MainBackground
       guid: e89805c26e0d4e94581f33204aefddaf
+    - name: Workroom
+      pathPrefix: Backgrounds/MainBackground
+      guid: ddb48384696223f45b6d2228c7e66d0b
+    - name: Bookroom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5a1630cd1d7927d458857c4f29c95d82
+    - name: Livingroom
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2d0695e32cbd64247a25c059e1124866
+    - name: Livingroom2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 851d755d37551214eaa663fac2a68708
+    - name: Playground
+      pathPrefix: Backgrounds/MainBackground
+      guid: 15d791d7520dc7d4299e0cacf3d7830a
+    - name: RoadForHome
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5835f4fdd116bbb4fb5903f0f9d21035
   - Id: Characters/fa1f4dea-ce28-47f1-9c17-3bd545a6f2d5
     Resources:
-    - name: angry1
+    - name: chayao
       pathPrefix: Characters/Hong
-      guid: 68702d793d3f54e47824d6b48fd838e9
+      guid: bd3d65c30dc3c634599ef60ce072e58c
+    - name: cry1
+      pathPrefix: Characters/Hong
+      guid: c834689ee6ec84c48a616528c3db5f21
+    - name: worry1
+      pathPrefix: Characters/Hong
+      guid: e05e48d9240438d448e72fe530d66099
+    - name: sad
+      pathPrefix: Characters/Hong
+      guid: 73eefb12e72b89b42ba783de13754693
     - name: happy1
       pathPrefix: Characters/Hong
-      guid: 55b6d5499f288c0458be01f47286ef53
+      guid: 8ccd7fc3c3510794ca449f70a8a7459b
     - name: happy2
       pathPrefix: Characters/Hong
-      guid: b4ebfee0a46124d4eae683251c7935ac
-    - name: sad1
+      guid: 988ca091876669445883bbf4d2bfe993
+    - name: happy3
       pathPrefix: Characters/Hong
-      guid: ca5bbafd7be49cb4f943f46c9d1bc7be
-    - name: shocked1
+      guid: 65328a76365b2eb4c91fafc492c6db71
+    - name: cry2
       pathPrefix: Characters/Hong
-      guid: 2320f77309f4f294b8566520925f0e4d
-    - name: shocked2
+      guid: 9164e9892da907d48831188f38994810
+    - name: worry2
       pathPrefix: Characters/Hong
-      guid: 5e0b883456c43cb48ada420ee2d6f825
+      guid: c6396759700104d4795b222b34144574
+    - name: worry3
+      pathPrefix: Characters/Hong
+      guid: 6ecd68d30861cde4c904127410aeef51
+    - name: happy4
+      pathPrefix: Characters/Hong
+      guid: 7ced1c2114fcec642b3fd65da1af8e8f
+    - name: angry
+      pathPrefix: Characters/Hong
+      guid: 18aeddc90ed8f714aac4c41b761adb3d
+  - Id: Characters/09427577-4180-488a-bc8d-16e6caa9ef4a
+    Resources:
+    - name: sad
+      pathPrefix: Characters/Teacher
+      guid: d2a50d5556dbfba4c8fd0d414ed94eec
+    - name: happy
+      pathPrefix: Characters/Teacher
+      guid: 906c9c305bd7e9d4ca6f4bb4a1896759
+    - name: think1
+      pathPrefix: Characters/Teacher
+      guid: 69fcac5c22122784687b57ec5b372559
+    - name: think2
+      pathPrefix: Characters/Teacher
+      guid: 6debf33e56ab0764e96dc12cc5123fba
+    - name: fine
+      pathPrefix: Characters/Teacher
+      guid: 6933d79bc0d76314e86ff5e3eaabc637
+  - Id: Characters/925f5e90-5fdf-4967-af10-9c6e94c8d15e
+    Resources:
+    - name: happy1
+      pathPrefix: Characters/Tech
+      guid: e56e5a7587a59d84abac658082b6b6f7
+    - name: happy2
+      pathPrefix: Characters/Tech
+      guid: b76bbc44521ceae4289f2c7665ca0410
+  - Id: Characters/39545d28-6e0f-4765-b34c-71a86a8fd5f7
+    Resources:
+    - name: happy
+      pathPrefix: Characters/Mom
+      guid: 205a263cd43800e4baeac691c530645a
+    - name: shocked
+      pathPrefix: Characters/Mom
+      guid: f6928ad4748170c45b800e9dc8b31e49
+    - name: angry
+      pathPrefix: Characters/Mom
+      guid: 4a0c01b2966e36549bfcf5dc13e7c870
