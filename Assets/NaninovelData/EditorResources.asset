@@ -284,6 +284,12 @@ MonoBehaviour:
     - name: RoadForHome
       pathPrefix: Backgrounds/MainBackground
       guid: 5835f4fdd116bbb4fb5903f0f9d21035
+    - name: SchoolGate1
+      pathPrefix: Backgrounds/MainBackground
+      guid: cb05d5be3638919489592c5d01937028
+    - name: Library
+      pathPrefix: Backgrounds/MainBackground
+      guid: 77713ec456807614abedf964445adbec
   - Id: Characters/fa1f4dea-ce28-47f1-9c17-3bd545a6f2d5
     Resources:
     - name: chayao
@@ -358,3 +364,36 @@ MonoBehaviour:
     - name: angry
       pathPrefix: Characters/Mom
       guid: 4a0c01b2966e36549bfcf5dc13e7c870
+  - Id: Characters/cf54a553-4e96-485f-b014-33f00d756813
+    Resources:
+    - name: happy1
+      pathPrefix: Characters/Student1
+      guid: 9d07f2a7e9a9c824c9c085a72ff36674
+    - name: happy2
+      pathPrefix: Characters/Student1
+      guid: db0417a9cc209c248875ebf015c6d153
+  - Id: Characters/9d9e3134-be27-4b5c-bf92-029d6cadab8a
+    Resources:
+    - name: cool
+      pathPrefix: Characters/Student2
+      guid: 645adac80d0191e4fb0e7d38761e5d8e
+    - name: happy
+      pathPrefix: Characters/Student2
+      guid: cb770b57ad311a643884f2b705a35906
+  - Id: Characters/2def3640-f3e3-42a6-8e46-20560bb0ad6d
+    Resources:
+    - name: happy1
+      pathPrefix: Characters/Student3
+      guid: 9de4dff5e22cc1c4783dd0ddfab2ecab
+    - name: happy2
+      pathPrefix: Characters/Student3
+      guid: f7434581508ed274eaf9d5faa9766593
+    - name: think
+      pathPrefix: Characters/Student3
+      guid: 23b5e8dd0d606914c87477a7a3ad519a
+    - name: angry
+      pathPrefix: Characters/Student3
+      guid: 9619d8b99e83b6b4d8ec8639a5553ecd
+    - name: shocked
+      pathPrefix: Characters/Student3
+      guid: b307ca5e192cfc146b48f512e1213b0f
