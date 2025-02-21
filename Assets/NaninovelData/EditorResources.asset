@@ -290,6 +290,9 @@ MonoBehaviour:
     - name: Library
       pathPrefix: Backgrounds/MainBackground
       guid: 77713ec456807614abedf964445adbec
+    - name: FengMian
+      pathPrefix: Backgrounds/MainBackground
+      guid: d0cffbcf07ee97a4da6615cd7551f4b2
   - Id: Characters/fa1f4dea-ce28-47f1-9c17-3bd545a6f2d5
     Resources:
     - name: chayao
@@ -397,3 +400,8 @@ MonoBehaviour:
     - name: shocked
       pathPrefix: Characters/Student3
       guid: b307ca5e192cfc146b48f512e1213b0f
+  - Id: Audio
+    Resources:
+    - name: bgm1_for_test
+      pathPrefix: Audio
+      guid: 502cb5dbec1b61a42a5f8b7e27e6ac6c

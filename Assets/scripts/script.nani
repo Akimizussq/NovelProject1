@@ -1,14 +1,17 @@
 ; 场景的切换：同一章节内切换用黑幕，章节之间切换用像素
-@back Classroom3
+@bgm bgm1_for_test
+@back FengMian 
+点击进入游戏
+@hidePrinter
+@back Classroom3.Pixelate time:1.5
 
 ; 测试---------------
-@goto .Ch25
+; @goto .Ch25
 ;--------------------
 #Chapter1
 某天下午，已到放学时间，同学们三两成群地从教室离开。
-Ming.happy: 欢迎来到test!
 ; 故事1
-Ming: 哈啊~终于熬到放学了..[i]按照以往的老样子，把作业先写完，今晚回家就可以美滋滋玩游戏了^^（从抽屉中拿出作业）
+Ming.happy: 哈啊~终于熬到放学了..[i]按照以往的老样子，把作业先写完，今晚回家就可以美滋滋玩游戏了^^（从抽屉中拿出作业）
 Ming.worry1: 唉@_@，看到生物就已经开始头大了，要是这份作业能马上消失就好了..
 @hide Ming
 写了一阵子
